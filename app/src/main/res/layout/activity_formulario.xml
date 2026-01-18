@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/etNombre"
+            style="@style/TextInputStyle"
+            android:hint="@string/nombre_completo"/>
+
+        <EditText
+            android:id="@+id/etFechaNacimiento"
+            style="@style/TextInputStyle"
+            android:hint="@string/fecha_nacimiento"/>
+
+        <EditText
+            android:id="@+id/etTelefono"
+            style="@style/TextInputStyle"
+            android:hint="@string/telefono"/>
+
+        <EditText
+            android:id="@+id/etEmail"
+            style="@style/TextInputStyle"
+            android:hint="@string/email"/>
+
+        <EditText
+            android:id="@+id/etDescripcion"
+            style="@style/TextInputStyle"
+            android:hint="@string/descripcion_contacto"
+            android:inputType="textMultiLine"
+            android:minLines="3"/>
+
+        <Button
+            android:id="@+id/btnSiguiente"
+            android:text="@string/siguiente"
+            android:layout_marginTop="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+</ScrollView>
